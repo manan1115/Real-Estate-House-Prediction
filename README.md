@@ -9,8 +9,10 @@ Using the Bangalore home prices dataset from Kaggle, we will build a predictive 
 + Feature engineering and dimensionality reduction
 + Hyperparameter tuning using GridSearchCV
 + Evaluating the model with K-Fold Cross Validation
+
 **2)Python Flask Server**: 
 Once the model is trained, we will create a Python Flask server that can serve the trained model for making real-time predictions via HTTP requests.
+
 **3)Web Interface**: 
 The final component is a responsive web application built using HTML, CSS, and JavaScript. This UI allows users to input relevant features like square footage, number of bedrooms, etc., and get a real-time prediction from the Flask server.
 
@@ -23,7 +25,7 @@ The final component is a responsive web application built using HTML, CSS, and J
 + Hyperparameter tuning with GridSearchCV
 + Outlier detection and handling
 + K-Fold Cross Validation for model performance assessment
-+ 
+
 **Web Application**:
 - A user-friendly web interface where users can enter house attributes like area, number of bedrooms, etc.
 - The website makes AJAX requests to the Flask server for predictions in real-time.
@@ -45,12 +47,15 @@ The final component is a responsive web application built using HTML, CSS, and J
    git clone https://github.com/manan1115/Real-Estate-House-Price-Prediction.git
 
 2. **Install Dependencies**: Ensure you have Python 3.x installed. Install the necessary Python packages by running
+   ```bash
    pip install -r requirements.txt
 
-3. **Train the Model**: Run the Jupyter notebook for data preprocessing and model building
+4. **Train the Model**: Run the Jupyter notebook for data preprocessing and model building
+   ```bash
    jupyter BengaluruHousePredicition.ipynb
 
-4. **Start Flask Server** : After training the model, save it and run the Flask server
+6. **Start Flask Server** : After training the model, save it and run the Flask server
+   ```bash
    python app.py
-5. **Run the web interface**: Open index.html in your web browser to interact with the website.
+8. **Run the web interface**: Open index.html in your web browser to interact with the website.
 
