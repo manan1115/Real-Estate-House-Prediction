@@ -60,3 +60,10 @@ The final component is a responsive web application built using HTML, CSS, and J
    python app.py
 8. **Run the web interface**: Open index.html in your web browser to interact with the website.
 
+## Dataset
+The dataset used in this project is the Bangalore Home Prices dataset, available on Kaggle. It includes features such as the square footage of the house, the number of bedrooms, and the location any many more features.
+
+## Future Improvements
++ Implement additional machine learning models like Random Forest or XGBoost for better prediction accuracy.
++ Deploy the web application using cloud platforms like Heroku or AWS for a fully functional online service.
++ Add more features like property location, proximity to amenities, and crime rates to improve the prediction model.
