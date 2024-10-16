@@ -23,6 +23,7 @@ Data Science Techniques Covered:
 + Hyperparameter tuning with GridSearchCV
 + Outlier detection and handling
 + K-Fold Cross Validation for model performance assessment
+  
 Web Application:
 - A user-friendly web interface where users can enter house attributes like area, number of bedrooms, etc.
 - The website makes AJAX requests to the Flask server for predictions in real-time.
