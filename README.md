@@ -2,6 +2,7 @@
 ![front ](https://github.com/user-attachments/assets/0590e4fb-8f8a-4746-a501-ae548d650d30)
 
 This project is a comprehensive step-by-step guide to building a Real Estate Price Prediction web application. The primary goal is to predict housing prices in Bangalore using machine learning models. The project is divided into three major components:
+
 **1)Model Building**:
 Using the Bangalore home prices dataset from Kaggle, we will build a predictive model with Linear Regression from scikit-learn. During this process, we will explore essential data science techniques like:
 + Data loading and preprocessing
